@@ -17,7 +17,7 @@ public class CommentController {
     @Autowired
     CommentService commentService;
 
-    @Operation(summary = "get all comments")
+    @Operation(summary = "get all comments branch dev")
     @ApiResponses({
             @ApiResponse(responseCode = "200", description = "Not found comment",
                     content = {@Content(mediaType = "application/json")})
